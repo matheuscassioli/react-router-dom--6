@@ -1,10 +1,12 @@
 [{
     "id": "1",
     "route" :"Inicio",
+    "routePath" :"/",
     "path": "/"
 },
 {
     "id": "2",
     "route" :"Sobre Mim",
-    "path": "/sobremim"
+    "routePath" :"/sobremim",
+        "path": "/sobremim"
 }]

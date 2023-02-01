@@ -9,6 +9,15 @@
 .link {
     font-size: 1.25rem;
     line-height: 1.5rem; 
+    padding: .5rem;
+    border-radius: 10%;
+    color: black;
+}
+
+.linkLocalizacao{ 
+    background-color: rgba(128, 128, 128, 0.539); 
+    color: white;
+    box-shadow: 0 0 5px -2px black;
 }
 
 @media (max-width: 744px) {
