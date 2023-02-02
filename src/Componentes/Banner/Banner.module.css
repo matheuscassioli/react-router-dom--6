@@ -1,0 +1,101 @@
+.banner{
+    background-color:var(--azul-escuro);
+    color:var(--branco);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 3rem 7.5rem 6.25rem;
+}
+.titulo{ 
+    font-size: 4rem;
+    margin-top: 4.875rem;
+    margin-bottom: 2rem;
+}
+.texto{
+    font-family: var(--fonte-secundaria);
+    font-size: 1.5rem;
+    line-height: 2rem;
+    margin-bottom: 2rem;
+}
+.right {
+    position: relative;
+    height: 406px;
+}
+.right > .minhafoto {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 18vw;
+    border-radius: 50%;
+}
+
+.right > .circuloColorido {
+    position: absolute;
+    right: 7vw;
+    bottom: 2.2vw;
+    width: 25vw;
+    border-radius: 50%;
+}
+
+@media (max-width: 1100px) {    
+    .banner {
+        padding: 3.5rem 1.5rem;
+    }
+
+    .titulo {
+        margin-top: 0;
+        margin-bottom: 1.5rem;
+    }
+
+    .texto {
+        margin-bottom: 1.5rem;
+    }
+
+    .right {
+        height: 338px;
+    }
+
+    .right > .minhaFoto {
+        width: 25vw;
+    }
+
+    .right > .circuloColorido {
+        right: 10vw;
+        width: 35vw;
+    }
+}
+
+@media (max-width: 744px) {
+    .banner {
+        padding: 2rem 1rem;
+        display: block;
+    }
+
+    .titulo {
+        margin-bottom: 2rem;
+    }
+
+    .paragrafo {
+        margin-bottom: 2rem;
+    }
+
+    .right {
+        height: 307px;
+    }
+
+    .right > .minhaFoto, .right > .circuloColorido {
+        left: 0;
+        right: 0;
+        margin: 0 auto;
+    }
+
+    .right > .minhaFoto {
+        width: 170px;
+        transform: translate(5rem, 0px);
+    }
+
+    .right > .circuloColorido {
+        width: 240px;
+        transform: translate(-1.5rem, 0px);
+    }
+}
+
