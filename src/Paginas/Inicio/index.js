@@ -1,9 +1,11 @@
-import React from 'react' 
+import React from 'react'
 import Banner from 'Componentes/Banner'
+import AnimatedPageTransition from 'Componentes/AnimatedPageTransition/index'
+
 export default function Inicio() {
   return (
-    <div>
-      <Banner/>
-    </div>
+    <AnimatedPageTransition>
+      <Banner />
+    </AnimatedPageTransition>
   )
 }
