@@ -1,50 +1,58 @@
-[ 
-    {
+
+[{
         "id":"1",
-        "titulo":"Python: Origem do nome",
+        "titulo":"Carros Responsivo",
         "texto":"O que é?",
-        "src":"../../Assets/posts/1.png"
+        "imagem":"Assets/Capa/1.png",
+        "textoPage": "Ipsum é simplesmente uma simulação de texto da indústria tipográfica e de impressos, e vem sendo utilizado desde o século XVI, quando um impressor desconhecido pegou uma bandeja de tipos e os embaralhou para fazer um livro de modelos de tipos. Lorem Ipsum sobreviveu não só a cinco séculos, como também ao salto para a editoração eletrônica, permanecendo essencialmente inalterado. Se popularizou na década de 60, quando a Letraset lançou decalques contendo passagens de Lorem Ipsum, e mais recentemente quando passou a ser integrado a softwares de editoração eletrônica como Aldus PageMaker."
     },
     {
         "id":"2",
-        "titulo":"Python: Origem do nome",
+        "titulo":"Metodologia BEM CSS",
         "texto":"O que é?",
-        "src":"../../Assets/posts/2.png"
+        "imagem":"Assets/Capa/2.png",
+        "textoPage": "Ipsum é simplesmente uma simulação de texto da indústria tipográfica e de impressos, e vem sendo utilizado desde o século XVI, quando um impressor desconhecido pegou uma bandeja de tipos e os embaralhou para fazer um livro de modelos de tipos. Lorem Ipsum sobreviveu não só a cinco séculos, como também ao salto para a editoração eletrônica, permanecendo essencialmente inalterado. Se popularizou na década de 60, quando a Letraset lançou decalques contendo passagens de Lorem Ipsum, e mais recentemente quando passou a ser integrado a softwares de editoração eletrônica como Aldus PageMaker."
     },
     {
         "id":"3",
-        "titulo":"Python: Origem do nome",
+        "titulo":"Barbearia Alura ",
         "texto":"O que é?",
-        "src":"../../Assets/posts/3.png"
+        "imagem":"Assets/Capa/3.png",
+        "textoPage": "Ipsum é simplesmente uma simulação de texto da indústria tipográfica e de impressos, e vem sendo utilizado desde o século XVI, quando um impressor desconhecido pegou uma bandeja de tipos e os embaralhou para fazer um livro de modelos de tipos. Lorem Ipsum sobreviveu não só a cinco séculos, como também ao salto para a editoração eletrônica, permanecendo essencialmente inalterado. Se popularizou na década de 60, quando a Letraset lançou decalques contendo passagens de Lorem Ipsum, e mais recentemente quando passou a ser integrado a softwares de editoração eletrônica como Aldus PageMaker."
     },
     {
         "id":"4",
-        "titulo":"Python: Origem do nome",
+        "titulo":"EasyBank",
         "texto":"O que é?",
-        "src":"../../Assets/posts/4.png"
+        "imagem":"Assets/Capa/4.png",
+        "textoPage": "Ipsum é simplesmente uma simulação de texto da indústria tipográfica e de impressos, e vem sendo utilizado desde o século XVI, quando um impressor desconhecido pegou uma bandeja de tipos e os embaralhou para fazer um livro de modelos de tipos. Lorem Ipsum sobreviveu não só a cinco séculos, como também ao salto para a editoração eletrônica, permanecendo essencialmente inalterado. Se popularizou na década de 60, quando a Letraset lançou decalques contendo passagens de Lorem Ipsum, e mais recentemente quando passou a ser integrado a softwares de editoração eletrônica como Aldus PageMaker."
     },
     {
         "id":"5",
         "titulo":"Python: Origem do nome",
         "texto":"O que é?",
-        "src":"../../Assets/posts/5.png"
+        "imagem":"Assets/Capa/5.png",
+        "textoPage": "Ipsum é simplesmente uma simulação de texto da indústria tipográfica e de impressos, e vem sendo utilizado desde o século XVI, quando um impressor desconhecido pegou uma bandeja de tipos e os embaralhou para fazer um livro de modelos de tipos. Lorem Ipsum sobreviveu não só a cinco séculos, como também ao salto para a editoração eletrônica, permanecendo essencialmente inalterado. Se popularizou na década de 60, quando a Letraset lançou decalques contendo passagens de Lorem Ipsum, e mais recentemente quando passou a ser integrado a softwares de editoração eletrônica como Aldus PageMaker."
     },
     {
         "id":"6",
         "titulo":"Python: Origem do nome",
         "texto":"O que é?",
-        "src":"../../Assets/posts/6.png"
+        "imagem":"Assets/Capa/6.png",
+        "textoPage": "Ipsum é simplesmente uma simulação de texto da indústria tipográfica e de impressos, e vem sendo utilizado desde o século XVI, quando um impressor desconhecido pegou uma bandeja de tipos e os embaralhou para fazer um livro de modelos de tipos. Lorem Ipsum sobreviveu não só a cinco séculos, como também ao salto para a editoração eletrônica, permanecendo essencialmente inalterado. Se popularizou na década de 60, quando a Letraset lançou decalques contendo passagens de Lorem Ipsum, e mais recentemente quando passou a ser integrado a softwares de editoração eletrônica como Aldus PageMaker."
     },
     {
         "id":"7",
         "titulo":"Python: Origem do nome",
         "texto":"O que é?",
-        "src":"../../Assets/posts/7.png"
+        "imagem":"Assets/Capa/7.png",
+        "textoPage": "Ipsum é simplesmente uma simulação de texto da indústria tipográfica e de impressos, e vem sendo utilizado desde o século XVI, quando um impressor desconhecido pegou uma bandeja de tipos e os embaralhou para fazer um livro de modelos de tipos. Lorem Ipsum sobreviveu não só a cinco séculos, como também ao salto para a editoração eletrônica, permanecendo essencialmente inalterado. Se popularizou na década de 60, quando a Letraset lançou decalques contendo passagens de Lorem Ipsum, e mais recentemente quando passou a ser integrado a softwares de editoração eletrônica como Aldus PageMaker."  
     },
     {
         "id":"8",
         "titulo":"Python: Origem do nome",
         "texto":"O que é?",
-        "src":"../../Assets/posts/8.png"
+        "imagem":"Assets/Capa/8.png",
+        "textoPage": "Ipsum é simplesmente uma simulação de texto da indústria tipográfica e de impressos, e vem sendo utilizado desde o século XVI, quando um impressor desconhecido pegou uma bandeja de tipos e os embaralhou para fazer um livro de modelos de tipos. Lorem Ipsum sobreviveu não só a cinco séculos, como também ao salto para a editoração eletrônica, permanecendo essencialmente inalterado. Se popularizou na década de 60, quando a Letraset lançou decalques contendo passagens de Lorem Ipsum, e mais recentemente quando passou a ser integrado a softwares de editoração eletrônica como Aldus PageMaker."
     }
 ]
