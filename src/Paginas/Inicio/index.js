@@ -3,6 +3,7 @@ import AnimatedPageTransition from 'Componentes/AnimatedPageTransition/index'
 import posts from "Paginas/Inicio/post.json"
 import styles from "./Inicio.module.css"
 import { Link } from 'react-router-dom'
+import { IoIosSend } from "react-icons/io"
 
 export default function Inicio() {
 
@@ -18,7 +19,7 @@ export default function Inicio() {
                 alt="Imagem de capa do post"
               />
               <h3>{key.titulo}</h3>
-              <Link to={`/posts/${key.id}`} className={styles.botaoLer}>Ler mais</Link>
+              <Link to={`/posts/${key.id}`} className={styles.botaoLer}>Ler mais <IoIosSend /></Link>
             </div>
           </li>
         )}

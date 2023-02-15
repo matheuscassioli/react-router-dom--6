@@ -1,42 +1,90 @@
-.banner{
-    background-color:var(--azul-escuro);
-    color:var(--branco);
+.banner {
+    background-color: var(--azul-escuro);
+    color: var(--branco);
     display: grid;
     grid-template-columns: 1fr 1fr;
-    padding: 3rem 7.5rem 6.25rem;
-}
-.titulo{ 
-    font-size: 4rem;
-    margin-top: 4.875rem;
+    padding: 1rem 7.5rem 3.25rem;
+} 
+
+.titulo {
+    font-size: 3.5rem;
+    margin-top: 2.875rem;
     margin-bottom: 2rem;
 }
-.texto{
+
+.texto {
     font-family: var(--fonte-secundaria);
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     line-height: 2rem;
     margin-bottom: 2rem;
 }
+
 .right {
     position: relative;
     height: 406px;
-}
-.right > .minhafoto {
-    position: absolute;
-    right: 0;
-    bottom: 0;
-    width: 18vw;
-    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: end;
+    padding-right: 3rem;
 }
 
-.right > .circuloColorido {
+.right>.minhafoto {
+    /* position: absolute;
+    right: 2rem;
+    bottom: 1rem; */
+    width: 18vw;
+    border-radius: 50%;
+    margin-bottom: 1rem;
+}
+
+.redes{ 
+    width: 180px; 
+    height: 50px;
+    margin-right: 2.2rem;
+    display: flex;
+    gap: 1rem;
+}
+.github{
+    background-color: green;
+    width: 33.33%;
+    height: 100%;
+}
+.linkedin{
+    background-color: rgb(102, 29, 115);
+    width: 33.33%; 
+}
+.whatsapp{
+    background-color: rgb(128, 0, 0);
+    width: 33.33%; 
+}
+/* .right>.circuloColorido {
     position: absolute;
     right: 7vw;
     bottom: 2.2vw;
     width: 25vw;
     border-radius: 50%;
+} */
+
+.left{
+    position: relative;
 }
 
-@media (max-width: 1100px) {    
+.right>.circuloColorido {
+    animation: loading linear 1000ms infinite; 
+}
+
+@keyframes loading {
+    0% {
+        transform: rotate(0);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+@media (max-width: 1100px) {
     .banner {
         padding: 3.5rem 1.5rem;
     }
@@ -54,14 +102,14 @@
         height: 338px;
     }
 
-    .right > .minhaFoto {
+    .right>.minhaFoto {
         width: 25vw;
     }
 
-    .right > .circuloColorido {
+    /* .right>.circuloColorido {
         right: 10vw;
         width: 35vw;
-    }
+    } */
 }
 
 @media (max-width: 744px) {
@@ -82,20 +130,20 @@
         height: 307px;
     }
 
-    .right > .minhaFoto, .right > .circuloColorido {
+    /* .right>.circuloColorido */
+    .right>.minhaFoto {
         left: 0;
         right: 0;
         margin: 0 auto;
     }
 
-    .right > .minhaFoto {
+    .right>.minhaFoto {
         width: 170px;
         transform: translate(5rem, 0px);
     }
 
-    .right > .circuloColorido {
+    /* .right>.circuloColorido {
         width: 240px;
         transform: translate(-1.5rem, 0px);
-    }
+    } */
 }
-

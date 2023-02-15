@@ -1,7 +1,7 @@
 {
     "nome": "Matheus Cassioli",
     "titulo": "Olá, Mundo",
-    "apresentacao": "Boas vindas ao meu espaço pessoal! Eu sou Matheus, Desenvolvedor Front-end da Penso Tecnologia, empresa que oferede diversas soluções na área de TI. Aqui compartilho vários conhecimentos, espero que aprenda algo novo :)",
+    "apresentacao": "Boas vindas ao meu espaço pessoal! Eu sou Matheus, Desenvolvedor Front-end da Penso Tecnologia, empresa que oferece diversas soluções na área de TI. Aqui compartilho alguns de meus projetos pessoais, inclusive essa página foi desenvolvida junto a Alura, utilizando alguns conceitos da biblioteca React-Router-Dom, espero que possa aprender algo novo :)",
     "redes": {
         "whatspp": "Matheus Cassioli",
         "github": "Matheus Cassioli",

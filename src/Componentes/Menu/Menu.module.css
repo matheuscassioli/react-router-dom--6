@@ -1,5 +1,5 @@
 .navegacao {
-    height: 112px;
+    height: 60px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -15,7 +15,7 @@
 }
 
 .linkLocalizacao{ 
-    background-color: rgba(128, 128, 128, 0.539); 
+    background-color: var(--azul-escuro);
     color: white;
     box-shadow: 0 0 5px -2px black;
 }

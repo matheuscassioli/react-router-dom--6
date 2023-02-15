@@ -1,58 +1,74 @@
 
 [{
         "id":"1",
-        "titulo":"Carros Responsivo",
+        "titulo":"Organo Alura",
         "texto":"O que é?",
         "imagem":"Assets/Capa/1.png",
-        "textoPage": "Ipsum é simplesmente uma simulação de texto da indústria tipográfica e de impressos, e vem sendo utilizado desde o século XVI, quando um impressor desconhecido pegou uma bandeja de tipos e os embaralhou para fazer um livro de modelos de tipos. Lorem Ipsum sobreviveu não só a cinco séculos, como também ao salto para a editoração eletrônica, permanecendo essencialmente inalterado. Se popularizou na década de 60, quando a Letraset lançou decalques contendo passagens de Lorem Ipsum, e mais recentemente quando passou a ser integrado a softwares de editoração eletrônica como Aldus PageMaker."
+        "textoPage": "Organo foi desenvolvido junto aos cursos da Alura, que tem como intuito a renderização dinânimca de alguns componentes, envio de dados via props entre os componentes. A idéia é poder criar e separar as equipes de acordo com suas funções e cargos.",
+        "link":"organo-react-ten.vercel.app"
     },
     {
         "id":"2",
-        "titulo":"Metodologia BEM CSS",
+        "titulo":"Frutas & Frutos",
         "texto":"O que é?",
         "imagem":"Assets/Capa/2.png",
-        "textoPage": "Ipsum é simplesmente uma simulação de texto da indústria tipográfica e de impressos, e vem sendo utilizado desde o século XVI, quando um impressor desconhecido pegou uma bandeja de tipos e os embaralhou para fazer um livro de modelos de tipos. Lorem Ipsum sobreviveu não só a cinco séculos, como também ao salto para a editoração eletrônica, permanecendo essencialmente inalterado. Se popularizou na década de 60, quando a Letraset lançou decalques contendo passagens de Lorem Ipsum, e mais recentemente quando passou a ser integrado a softwares de editoração eletrônica como Aldus PageMaker."
+        "textoPage": "Frutas & Frutos é um projeto desenvolvido com a metodologia BEM do CSS, 'Block, Element, Modifier', é um método que na minha visão organiza melhor o projeto, define e separa de forma visual as classes CSS, assim evidenciando hierarquia e também, não menos importante, facilita a não colisão de classes.",
+        "link":"https://matheuscassioli.github.io/bem-css-alura/"
     },
     {
         "id":"3",
-        "titulo":"Barbearia Alura ",
+        "titulo":"Alura Geek",
         "texto":"O que é?",
         "imagem":"Assets/Capa/3.png",
-        "textoPage": "Ipsum é simplesmente uma simulação de texto da indústria tipográfica e de impressos, e vem sendo utilizado desde o século XVI, quando um impressor desconhecido pegou uma bandeja de tipos e os embaralhou para fazer um livro de modelos de tipos. Lorem Ipsum sobreviveu não só a cinco séculos, como também ao salto para a editoração eletrônica, permanecendo essencialmente inalterado. Se popularizou na década de 60, quando a Letraset lançou decalques contendo passagens de Lorem Ipsum, e mais recentemente quando passou a ser integrado a softwares de editoração eletrônica como Aldus PageMaker."
+        "textoPage": "Alura Geek foi um projeto desafio de uma das semanas da Alura, 'Challenge Week Front-end', desenvolvido com reactJs, tem como meta, a renderização dinâmica de componentes, a reutilização dos mesmo passando props que permite você personaliza-los de 'fora', pude aprender bastante sobre props, tambem como 'enxugar' e reutilizar o código. Ps: Um dois meus primeiros projetos utilizando react.",
+        "link":"https://matheuscassioli.github.io/challenge5-alura-front-end/"
     },
     {
         "id":"4",
         "titulo":"EasyBank",
         "texto":"O que é?",
         "imagem":"Assets/Capa/4.png",
-        "textoPage": "Ipsum é simplesmente uma simulação de texto da indústria tipográfica e de impressos, e vem sendo utilizado desde o século XVI, quando um impressor desconhecido pegou uma bandeja de tipos e os embaralhou para fazer um livro de modelos de tipos. Lorem Ipsum sobreviveu não só a cinco séculos, como também ao salto para a editoração eletrônica, permanecendo essencialmente inalterado. Se popularizou na década de 60, quando a Letraset lançou decalques contendo passagens de Lorem Ipsum, e mais recentemente quando passou a ser integrado a softwares de editoração eletrônica como Aldus PageMaker."
+        "textoPage": "EasyBank, projeto com o design e os assets prontos do Front-End-Mentor, plataforma onde me ajudou a colocar a mão na massa de fato no front, construindo a interface baseado no layout proposto. Ps: Em alguns projetos eles disponibilizam o layout responsivo agregando ainda mais o desafio.",
+        "link":"https://matheuscassioli.github.io/easybank-challenge/"
     },
     {
         "id":"5",
-        "titulo":"Python: Origem do nome",
+        "titulo":"Alura Space",
         "texto":"O que é?",
         "imagem":"Assets/Capa/5.png",
-        "textoPage": "Ipsum é simplesmente uma simulação de texto da indústria tipográfica e de impressos, e vem sendo utilizado desde o século XVI, quando um impressor desconhecido pegou uma bandeja de tipos e os embaralhou para fazer um livro de modelos de tipos. Lorem Ipsum sobreviveu não só a cinco séculos, como também ao salto para a editoração eletrônica, permanecendo essencialmente inalterado. Se popularizou na década de 60, quando a Letraset lançou decalques contendo passagens de Lorem Ipsum, e mais recentemente quando passou a ser integrado a softwares de editoração eletrônica como Aldus PageMaker."
+        "textoPage": "Alura Space, projeto feito em reactJs também, a idéia central é entender o funcionamento dos componentes, lidando com componentes estáticos e também dinâmicos, também misturando um pouco de SCSS e CSS.",
+        "link":"alura-space-react-69hd.vercel.app"
     },
     {
         "id":"6",
-        "titulo":"Python: Origem do nome",
+        "titulo":"Jogo c/ API Web Speech",
         "texto":"O que é?",
         "imagem":"Assets/Capa/6.png",
-        "textoPage": "Ipsum é simplesmente uma simulação de texto da indústria tipográfica e de impressos, e vem sendo utilizado desde o século XVI, quando um impressor desconhecido pegou uma bandeja de tipos e os embaralhou para fazer um livro de modelos de tipos. Lorem Ipsum sobreviveu não só a cinco séculos, como também ao salto para a editoração eletrônica, permanecendo essencialmente inalterado. Se popularizou na década de 60, quando a Letraset lançou decalques contendo passagens de Lorem Ipsum, e mais recentemente quando passou a ser integrado a softwares de editoração eletrônica como Aldus PageMaker."
+        "textoPage": "Api Speech, api que permite a captação de sons. Jogo desenvolvido com JavaScript puro, ele capta os sons e os renderiza na tela, o intuito do jogo é acertar o numero aleatório, e enquanto você não acerta, ele te retorna as dicas. Ps: Utilize-o no navegador Google Chrome.",
+        "link":"https://github.com/matheuscassioli/jogo-reconhecimento-de-voz"
     },
     {
         "id":"7",
-        "titulo":"Python: Origem do nome",
+        "titulo":"API Via-CEP",
         "texto":"O que é?",
         "imagem":"Assets/Capa/7.png",
-        "textoPage": "Ipsum é simplesmente uma simulação de texto da indústria tipográfica e de impressos, e vem sendo utilizado desde o século XVI, quando um impressor desconhecido pegou uma bandeja de tipos e os embaralhou para fazer um livro de modelos de tipos. Lorem Ipsum sobreviveu não só a cinco séculos, como também ao salto para a editoração eletrônica, permanecendo essencialmente inalterado. Se popularizou na década de 60, quando a Letraset lançou decalques contendo passagens de Lorem Ipsum, e mais recentemente quando passou a ser integrado a softwares de editoração eletrônica como Aldus PageMaker."  
+        "textoPage": "Via Cep, api clássica pra quem esta começando nesse mundo de consumir dados externos, básicamente você inseri seu CEP, ele consulta a API do VIA-CEP e retorna preenchendo os campos de endereço, caso o CEP passado esteja correto."  ,
+        "link":"https://matheuscassioli.github.io/consumindo-api-via-cep/"
     },
     {
         "id":"8",
-        "titulo":"Python: Origem do nome",
+        "titulo":"Barbearia Alura",
         "texto":"O que é?",
         "imagem":"Assets/Capa/8.png",
-        "textoPage": "Ipsum é simplesmente uma simulação de texto da indústria tipográfica e de impressos, e vem sendo utilizado desde o século XVI, quando um impressor desconhecido pegou uma bandeja de tipos e os embaralhou para fazer um livro de modelos de tipos. Lorem Ipsum sobreviveu não só a cinco séculos, como também ao salto para a editoração eletrônica, permanecendo essencialmente inalterado. Se popularizou na década de 60, quando a Letraset lançou decalques contendo passagens de Lorem Ipsum, e mais recentemente quando passou a ser integrado a softwares de editoração eletrônica como Aldus PageMaker."
+        "textoPage": "Projeto básico, utilizando HTML e CSS, bem básico tambem, mas essencial para meu aprendizado, treinei bastante o responsivo, transição para outras telas, um dos meus primeiros projetos na Alura.",
+        "link":"https://matheuscassioli.github.io/barbearia-alura/"
+    },
+    {
+        "id":"9",
+        "titulo":"Carros Modelos",
+        "texto":"O que é?",
+        "imagem":"Assets/Capa/8.png",
+        "textoPage": "Projeto bem básico, utilizando CSS e HTML Básico, um dos meus primeiros desafios que codei da plataforma citada acima, Front-end Mentor, aprendi bastante sobre responsivo, testei bastante, errei bastante, o importante é que no final tudo deu certo e hoje curto pra caramba fazer o responsivo de telas, inclusive, sempre que possivel dou uma força pra os amigos que estão começando. Ps: Na epóca tive um Gestor massa sênior em Front-End, o Rapha, não negou esforços para me ajudar.",
+        "link":"https://matheuscassioli.github.io/simple-project-cars-responsive/"
     }
 ]

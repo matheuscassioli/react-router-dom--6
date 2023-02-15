@@ -1,3 +1,10 @@
 .hugDivPar{
     width: 100%; 
 }
+.link{
+    margin-top: 1rem;
+}
+
+.link a{
+    color: blue;
+}
