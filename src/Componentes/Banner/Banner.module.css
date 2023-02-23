@@ -4,7 +4,7 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     padding: 1rem 7.5rem 3.25rem;
-} 
+}
 
 .titulo {
     font-size: 3.5rem;
@@ -24,8 +24,8 @@
     height: 406px;
     display: flex;
     flex-direction: column;
-    justify-content: center; 
-    align-items: end;
+    justify-content: center;
+    align-items: flex-end;
     padding-right: 3rem;
 }
 
@@ -38,26 +38,53 @@
     margin-bottom: 1rem;
 }
 
-.redes{ 
-    width: 180px; 
+.redes {
+    width: 216px;
     height: 50px;
-    margin-right: 2.2rem;
+    margin-right: 1.2rem;
     display: flex;
     gap: 1rem;
-}
-.github{
-    background-color: green;
+    margin-top: .5rem;
+} 
+
+.redes>a {
+    background-repeat: no-repeat;
+    background-size: contain;
     width: 33.33%;
+}
+
+.github {
+    background-image: url(../../Assets/logo-redes/hub-white.png);
     height: 100%;
 }
-.linkedin{
-    background-color: rgb(102, 29, 115);
-    width: 33.33%; 
+
+.github:hover {
+    transition: 300ms;
+    background-image: url(../../Assets/logo-redes/hub-blue.png);
+    transform: scale(1.125);
 }
-.whatsapp{
-    background-color: rgb(128, 0, 0);
-    width: 33.33%; 
+
+.linkedin {
+    background-image: url(../../Assets/logo-redes/in-white.png);
 }
+
+.linkedin:hover {
+    transition: 300ms;
+    background-image: url(../../Assets/logo-redes/in-blue.png);
+    transform: scale(1.125);
+}
+
+.whatsapp {
+    background-image: url(../../Assets/logo-redes/wpp-white.png);
+}
+
+.whatsapp:hover {
+    transition: 300ms;
+    background-image: url(../../Assets/logo-redes/wpp-green.png);
+    transform: scale(1.125);
+}
+
+
 /* .right>.circuloColorido {
     position: absolute;
     right: 7vw;
@@ -66,12 +93,12 @@
     border-radius: 50%;
 } */
 
-.left{
+.left {
     position: relative;
 }
 
 .right>.circuloColorido {
-    animation: loading linear 1000ms infinite; 
+    animation: loading linear 1000ms infinite;
 }
 
 @keyframes loading {
