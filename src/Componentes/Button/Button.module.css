@@ -1,0 +1,17 @@
+.botaoLer {
+    display: inline-block;
+    border-radius: 8px;
+    padding: 0.55rem 1rem;
+    font-size: 1.125rem;
+    line-height: 1.125rem;
+    background-color: var(--azul-medio);
+    color: var(--branco);
+    border: 3px solid var(--azul-medio);
+    cursor: pointer;
+    transition: 0.2s
+}
+
+.botaoLer:hover {
+    transition: 200ms;
+    box-shadow: 0px 4px 8px -4px black;
+}

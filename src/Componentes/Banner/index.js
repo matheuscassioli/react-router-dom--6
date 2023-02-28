@@ -1,7 +1,6 @@
 import React from 'react'
 import styles from "./Banner.module.css"
-import dados from "./DadosBanner.json"
-// import circuloColors from "Assets/circulo colorido.png"
+import dados from "./DadosBanner.json" 
 import minhafoto from "Assets/minhafoto.png"
 import { Link } from 'react-router-dom'
 

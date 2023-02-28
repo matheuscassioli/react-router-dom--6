@@ -1,0 +1,24 @@
+.hugnotfound{
+    height: calc(100% - 75px);
+    display: flex;
+    align-items: center;
+}
+.notfound {
+    width: 100%;
+    color: greenyellow;
+    text-align: center;   
+}
+
+.notfound404 {
+    font-size: 4rem;
+}
+
+.page {
+    width: 100%;
+    font-size: 36px;
+}
+
+.texto {
+    color: red;
+    font-size: 28px;
+}
