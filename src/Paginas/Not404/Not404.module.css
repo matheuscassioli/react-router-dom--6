@@ -4,21 +4,19 @@
     align-items: center;
 }
 .notfound {
-    width: 100%;
-    color: greenyellow;
+    width: 100%; 
     text-align: center;   
-}
-
-.notfound404 {
-    font-size: 4rem;
-}
+} 
 
 .page {
     width: 100%;
     font-size: 36px;
+    margin-top: -3rem;
 }
 
-.texto {
-    color: red;
-    font-size: 28px;
+.texto { 
+    font-size: 24px;
+}
+.imgNot{
+    width: 300px;
 }

@@ -1,8 +1,8 @@
 import React from 'react'
 import styles from "./Button.module.css"
 
-export default function Button({ children }) {
+export default function Button({ children, padding, onClick }) {
     return (
-        <button className={styles.botaoLer}>{children}</button>
+        <button onClick={onClick} className={styles.botaoLer} style={padding}>{children}</ button>
     )
 }
